@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>{{title}}</title>
-    <link rel="stylesheet" href="style.css">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>{{heading}}</h1>
-        <p>{{content}}</p>
-    </div>
+    <h1>{{ title }}</h1>
+    <p>{{ content }}</p>
 </body>
 </html>

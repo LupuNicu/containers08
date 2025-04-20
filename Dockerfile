@@ -6,7 +6,7 @@ RUN apt-get update && \
 
 VOLUME ["/var/www/db"]
 
-COPY sql/schema.sql /var/www/db/schema.sql
+COPY site/sql/schema.sql /var/www/db/schema.sql
 
 RUN echo "prepare database" && \
     cat /var/www/db/schema.sql | sqlite3 /var/www/db/db.sqlite && \

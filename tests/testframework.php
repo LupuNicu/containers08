@@ -44,4 +44,3 @@ class TestFramework {
         return "{$this->success} / " . count($this->tests);
     }
 }
-?>

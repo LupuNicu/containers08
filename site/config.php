@@ -1,4 +1,7 @@
 <?php
+
 $config = [
-    'db_path' => __DIR__ . '/data.sqlite'
+    "db" => [
+        "path" => "/var/www/db/db.sqlite"
+    ]
 ];
